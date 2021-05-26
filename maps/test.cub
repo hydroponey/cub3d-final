@@ -1,0 +1,22 @@
+R 800 600
+NO      ./textures/eagle.xpm
+SO ./textures/greystone.xpm
+EA ./textures/purplestone.xpm
+WE ./textures/red.xpm
+
+S ./textures/tonneau.xpm
+C 255,200,160
+F 122,122,122
+
+11111
+10001
+10001
+10001
+11111
+
+
+11111
+10001
+10N01
+10001
+11111

@@ -1,0 +1,9 @@
+R 800 600
+NO      ./textures/eagle.xpm
+SO ./textures/greystone.xpm
+EA ./textures/purplestone.xpm
+WE ./textures/fdp.xpm
+
+S ./textures/fdp.xpm
+C 255,200,160
+F 122,122,122
