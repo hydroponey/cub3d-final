@@ -2,7 +2,7 @@ R 800 600
 NO      ./textures/eagle.xpm
 SO ./textures/greystone.xpm
 EA ./textures/purplestone.xpm
-WE ./textures/red.xpm
+WE ./textures/big.xpm
 
 S ./textures/tonneau.xpm
 C 255,200,160
