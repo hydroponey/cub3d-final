@@ -6,12 +6,11 @@
 /*   By: asimoes <asimoes@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/24 08:05:17 by asimoes           #+#    #+#             */
-/*   Updated: 2021/05/26 13:15:26 by asimoes          ###   ########.fr       */
+/*   Updated: 2021/05/26 16:07:19 by asimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "cub3d.h"
-#include <stdio.h>
 
 void	raycasting_1(int x, t_ray *ray, t_conf *conf)
 {

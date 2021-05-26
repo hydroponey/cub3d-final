@@ -6,7 +6,7 @@
 /*   By: asimoes <asimoes@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/13 18:44:48 by asimoes           #+#    #+#             */
-/*   Updated: 2021/05/26 14:21:50 by asimoes          ###   ########.fr       */
+/*   Updated: 2021/05/26 15:58:20 by asimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,8 +56,6 @@ typedef struct s_ray {
 	double	camera_x;
 	double	dirx;
 	double	diry;
-	int		lastmapx;
-	int		lastmapy;
 	int		mapx;
 	int		mapy;
 	double	side_distx;

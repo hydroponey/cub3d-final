@@ -6,12 +6,11 @@
 /*   By: asimoes <asimoes@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/25 21:10:27 by asimoes           #+#    #+#             */
-/*   Updated: 2021/05/26 13:24:05 by asimoes          ###   ########.fr       */
+/*   Updated: 2021/05/26 16:08:08 by asimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "cub3d.h"
-#include <stdio.h>
 
 t_texture	*get_texture(t_ray *ray, t_conf *conf)
 {

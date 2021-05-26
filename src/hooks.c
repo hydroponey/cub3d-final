@@ -6,12 +6,11 @@
 /*   By: asimoes <asimoes@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/15 01:30:26 by asimoes           #+#    #+#             */
-/*   Updated: 2021/05/26 14:21:30 by asimoes          ###   ########.fr       */
+/*   Updated: 2021/05/26 16:07:56 by asimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "cub3d.h"
-#include <stdio.h>
 
 int	exit_hook(t_conf *conf)
 {

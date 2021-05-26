@@ -6,11 +6,10 @@
 /*   By: asimoes <asimoes@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/26 07:23:21 by asimoes           #+#    #+#             */
-/*   Updated: 2021/05/22 23:25:27 by asimoes          ###   ########.fr       */
+/*   Updated: 2021/05/26 16:08:02 by asimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 #include "cub3d.h"
 
 void	sort_sprites(int *order, int *distance, int count)
