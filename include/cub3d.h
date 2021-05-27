@@ -6,7 +6,7 @@
 /*   By: asimoes <asimoes@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/13 18:44:48 by asimoes           #+#    #+#             */
-/*   Updated: 2021/05/26 15:58:20 by asimoes          ###   ########.fr       */
+/*   Updated: 2021/05/27 04:17:17 by asimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,6 +46,9 @@
 # define KEY_RIGHT		0xFF53
 # define KEY_DOWN		0xFF54
 # define TILE_CHECKED	-2
+# define FOV			0.66
+# define MOVE_SPEED		0.003
+# define ROT_SPEED		0.003
 
 typedef struct s_sprite {
 	double	x;

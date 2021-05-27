@@ -1,4 +1,5 @@
 *.o
 cub3D
 screenshot.bmp
-cub3d_destroyer/
+cub3d_destroyer
+cub3D_leaks_maps_tester

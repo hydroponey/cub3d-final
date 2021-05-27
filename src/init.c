@@ -6,7 +6,7 @@
 /*   By: asimoes <asimoes@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/13 20:49:15 by asimoes           #+#    #+#             */
-/*   Updated: 2021/05/22 23:32:28 by asimoes          ###   ########.fr       */
+/*   Updated: 2021/05/27 04:17:28 by asimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,8 +38,8 @@ void	init_game(t_conf *conf)
 		conf->resx = w;
 		conf->resy = h;
 	}
-	conf->move_speed = 0.003 * (conf->resx * conf->resy) / (640 * 480);
-	conf->rot_speed = 0.003 * (conf->resx * conf->resy) / (640 * 480);
+	conf->move_speed = MOVE_SPEED * (conf->resx * conf->resy) / (640 * 480);
+	conf->rot_speed = ROT_SPEED * (conf->resx * conf->resy) / (640 * 480);
 	load_textures(conf);
 	get_textures_addr(conf);
 	create_image(conf);

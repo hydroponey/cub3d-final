@@ -6,12 +6,11 @@
 /*   By: asimoes <asimoes@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/22 01:25:28 by asimoes           #+#    #+#             */
-/*   Updated: 2021/05/24 07:20:58 by asimoes          ###   ########.fr       */
+/*   Updated: 2021/05/27 03:39:09 by asimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "cub3d.h"
-#define FOV 0.6
 
 int	get_max_width(t_conf *conf)
 {
@@ -63,22 +62,22 @@ void	set_start_dir(t_conf *conf, int x, int y, char c)
 	if (c == 'N')
 	{
 		conf->dirx = -1;
-		conf->planey = 0.66;
+		conf->planey = FOV;
 	}
 	if (c == 'S')
 	{
 		conf->dirx = 1;
-		conf->planey = -0.66;
+		conf->planey = -FOV;
 	}
 	if (c == 'E')
 	{
 		conf->diry = 1;
-		conf->planex = 0.66;
+		conf->planex = FOV;
 	}
 	if (c == 'W')
 	{
 		conf->diry = -1;
-		conf->planex = -0.66;
+		conf->planex = -FOV;
 	}
 }
 

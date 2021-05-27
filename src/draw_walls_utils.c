@@ -6,7 +6,7 @@
 /*   By: asimoes <asimoes@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/25 21:10:27 by asimoes           #+#    #+#             */
-/*   Updated: 2021/05/26 16:08:08 by asimoes          ###   ########.fr       */
+/*   Updated: 2021/05/27 04:10:57 by asimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ t_texture	*get_texture(t_ray *ray, t_conf *conf)
 void	set_wall_info(t_conf *conf, t_ray *ray, t_wall *wall)
 {
 	wall->line_height = (int)(conf->resy / ray->perp_wall_dist);
-	wall->draw.y_start = -wall->line_height / 2 + conf->resy / 2;
+	wall->draw.y_start = conf->resy / 2 - wall->line_height / 2;
 	if (wall->draw.y_start < 0)
 		wall->draw.y_start = 0;
 	wall->draw.y_end = wall->line_height / 2 + conf->resy / 2;
