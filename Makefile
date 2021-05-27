@@ -6,7 +6,7 @@
 #    By: asimoes <asimoes@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/04/11 16:41:09 by asimoes           #+#    #+#              #
-#    Updated: 2021/05/24 01:08:51 by asimoes          ###   ########.fr        #
+#    Updated: 2021/05/27 04:42:28 by asimoes          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -74,6 +74,9 @@ $(NAME):	$(OBJS) $(LIBMLX) $(LIBFT)
 			$(CC) $(CFLAGS) -c $< -o $@
 $(LIBFT):	
 			$(MAKE) -C libft
+ifeq ($(UNAME),Darwin)
+			@mv $(LIBFT) .
+endif
 
 $(LIBMLX):
 			$(MAKE) -C $(LIBMLX_DIR)
